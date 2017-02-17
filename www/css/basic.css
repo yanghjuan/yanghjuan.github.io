@@ -1,0 +1,82 @@
+
+
+#basic {
+  background-color: #E4E1E1;
+ 
+}
+#basic .basic_info{
+  padding: 10px;
+  background: #EFEFEF;
+  // line-height: 120px;
+}
+
+#basic img{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  z-index: 100;
+}
+
+#basic .info{
+  display: inline-block;
+  vertical-align:top;
+  margin: 0;
+  padding: 0;
+  color:green;
+  margin-left:20px;
+  font:500 30px/100px 'Microsoft yahei'
+}
+#basic .info span{
+  position:relative;
+  color:green;
+  animation: anim 0.8s linear infinite alternate;
+}
+
+#basic .list .txt{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   transform:translate(-100%);
+  font-size:16px;
+  line-height: 1;
+
+  text-indent: 20px;
+  border-bottom: 1px solid #ccc;
+  position:relative;
+  color:green;
+  animation: anim 0.8s linear 4 alternate;
+}
+    
+
+
+@keyframes anim{ 
+        
+        0%{
+          color:purple;
+          text-shadow: 1px 1px 2px yellowgreen;
+          top:0px;
+        }
+        50%{
+          color:red;
+          text-shadow: 1px 1px 2px cyan;
+          top:8px;
+        }
+        100%{
+          color:green;
+          text-shadow: 1px 1px 2px pink;
+          top:0px;
+        }
+      
+      }
+
+      #basic .info span:nth-child(1){
+        animation-delay: 0s;
+      }
+     #basic .info span:nth-child(2){
+        animation-delay: 0.2s;
+      }
+      #basic .info span:nth-child(3){
+        animation-delay: 0.4s;
+      }
+      #basic .info span:nth-child(4){
+        animation-delay: 0.6s;
+      }

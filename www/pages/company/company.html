@@ -1,0 +1,25 @@
+<ion-view id="company" view-title="项目经验" hide-back-button="true" cache-view="false">
+  
+ 
+		<div class="bar bar-header bar-royal" ng-click="goBack()">
+          <span>&lt;</span>
+		  <h1 class="title" id="title">项目经验</h1>
+		</div>
+        <ion-content class="ion-content">
+            <div class="list animated slideInRight item">
+                <h2>项目职责:</h2>     
+                <ul>
+                    <li ng-repeat="list in desc" class="one_txt_cut">{{$index+1}} {{list.text}}</li>
+
+                </ul>
+            </div>
+            <div class="list animated slideInLeft item">
+                <h2>责任描述:</h2>     
+                <ul>
+                    <li ng-repeat="list in resp" class="one_txt_cut">{{$index+1}} {{list.text}}</li>
+                    
+                </ul>
+            </div>
+     
+        </ion-content>
+</ion-view>

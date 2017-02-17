@@ -1,0 +1,25 @@
+
+
+#company span{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font:700 18px/20px "SimSun", "宋体";
+	margin-top: 6px;
+}
+#company .ion-content{
+  margin-top: 44px;
+  padding: 5px;
+}
+#company .ion-content .list{
+	padding: 5px;
+}
+#company .ion-content h2{
+	margin-bottom: 5px;
+	font:600 16px/20px 'Microsoft yahei'
+}
+#company .ion-content li{
+	padding:3px 6px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+}

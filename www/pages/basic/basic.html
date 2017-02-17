@@ -1,0 +1,29 @@
+<ion-view id="basic" view-title="基本信息" hide-back-button="true" cache-view="false">
+  
+  <ion-content class="ion-content">
+    <div ng-click="func_showAction()" class="basic_info">
+    	<img  id="touxiang" src="img/avter.jpg" >
+        <div class="info">
+           <span>基</span>
+           <span>本</span>
+           <span>信</span>
+           <span>息</span>
+        </div> 
+    </div>
+     
+        <div class="list" id="list">
+          <div class="txt">姓 名：杨慧娟</div>
+          <div class="txt">英 语：CET-6</div>
+          <div class="txt">工作年限：2</div>
+          <div class="txt">毕业院校：东华大学</div>
+          <div class="txt">籍 贯：上海</div>
+          <div class="txt">民 族 ：汉</div>
+          <div class="txt">邮  箱：13122617662@163.com</div>
+          <div class="txt" ng-click="func_callPhone('13122617662')">
+            <span>电话:</span>
+            <a class="telephone" href="tel:13122617662">13122617662</a>
+          </div>
+        </div>
+    
+  </ion-content>
+</ion-view>

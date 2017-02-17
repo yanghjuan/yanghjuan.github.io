@@ -1,0 +1,45 @@
+    
+    #exprice .content{
+       margin-top: 44px;
+     }
+     #exprice .content h2{
+      font-size: 20px;
+      font-weight: 600;
+     }
+    #exprice .content p{
+    
+      padding:10px 0 ;
+    	box-sizing: border-box;
+    	border-bottom: 1px solid #ccc;
+      font-size: 18px; 	
+    }
+
+
+    #exprice .box{
+     width: 80px;
+            height: 600px;
+            background:-webkit-linear-gradient(left,rgba(11,134,10,0),rgba(11,134,10,0.8),rgba(11,134,10,0));
+            transform: skew(-30deg);
+            position: absolute;
+            z-index:9999;
+            top:-50px;
+            left:-200px;
+            animation: light 1.6s linear infinite alternate;
+    }
+
+    
+    @keyframes light{ 
+        
+        0%{
+       left:-200px;
+      
+         
+        }
+        50%{
+          left:200px;
+        }
+        100%{
+         left:450px;
+        }
+      
+      }
